@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+jar {
+	baseName = 'nucrawler'
+	version = '0.0.1-SNAPSHOT'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.jsoup:jsoup:1.10.2'
+	compile 'org.apache.httpcomponents:httpclient:4.5.3'
+    compile 'org.slf4j:slf4j-api:1.7.23'
+    compile 'org.slf4j:slf4j-simple:1.7.23'
+	testCompile 'junit:junit:4.12'
+}
+
+task wrapper(type: Wrapper) {
+	distributionUrl = 'https://services.gradle.org/distributions/gradle-3.3-all.zip'
+}
