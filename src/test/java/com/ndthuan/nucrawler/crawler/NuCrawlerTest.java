@@ -1,8 +1,8 @@
 package com.ndthuan.nucrawler.crawler;
 
+import com.ndthuan.nucrawler.api.JobHistory;
 import com.ndthuan.nucrawler.crawler.responsehandlers.ResponseHandler;
 import com.ndthuan.nucrawler.history.InterProcessJobHistory;
-import com.ndthuan.nucrawler.history.JobHistory;
 import com.ndthuan.nucrawler.queueing.BlockingJobQueue;
 import org.junit.Before;
 import org.junit.Test;

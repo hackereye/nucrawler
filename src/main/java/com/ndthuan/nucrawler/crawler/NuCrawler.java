@@ -1,15 +1,15 @@
 package com.ndthuan.nucrawler.crawler;
 
+import com.ndthuan.nucrawler.api.JobHistory;
 import com.ndthuan.nucrawler.crawler.behaviors.JobBehavior;
 import com.ndthuan.nucrawler.crawler.linkfollowers.LinkFollower;
 import com.ndthuan.nucrawler.crawler.requestdecorators.RequestDecorator;
 import com.ndthuan.nucrawler.crawler.responsehandlers.ResponseHandler;
 import com.ndthuan.nucrawler.helpers.IrresolvableUriException;
 import com.ndthuan.nucrawler.helpers.UriUtils;
-import com.ndthuan.nucrawler.history.JobHistory;
-import com.ndthuan.nucrawler.queueing.Job;
+import com.ndthuan.nucrawler.api.Job;
 import com.ndthuan.nucrawler.queueing.JobMaker;
-import com.ndthuan.nucrawler.queueing.JobQueue;
+import com.ndthuan.nucrawler.api.JobQueue;
 import org.apache.http.*;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpUriRequest;

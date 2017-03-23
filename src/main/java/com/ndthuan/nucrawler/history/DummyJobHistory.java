@@ -1,5 +1,7 @@
 package com.ndthuan.nucrawler.history;
 
+import com.ndthuan.nucrawler.api.JobHistory;
+
 import java.net.URI;
 
 public class DummyJobHistory implements JobHistory {

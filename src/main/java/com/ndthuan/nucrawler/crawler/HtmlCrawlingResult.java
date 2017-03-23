@@ -1,6 +1,6 @@
 package com.ndthuan.nucrawler.crawler;
 
-import com.ndthuan.nucrawler.queueing.Job;
+import com.ndthuan.nucrawler.api.Job;
 import org.apache.http.HttpResponse;
 import org.jsoup.nodes.Document;
 

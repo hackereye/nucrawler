@@ -1,7 +1,7 @@
 package com.ndthuan.nucrawler.crawler.linkfollowers;
 
-import com.ndthuan.nucrawler.history.JobHistory;
-import com.ndthuan.nucrawler.queueing.Job;
+import com.ndthuan.nucrawler.api.Job;
+import com.ndthuan.nucrawler.api.JobHistory;
 
 import java.net.URI;
 

@@ -1,6 +1,6 @@
 package com.ndthuan.nucrawler.crawler.linkfollowers;
 
-import com.ndthuan.nucrawler.queueing.Job;
+import com.ndthuan.nucrawler.api.Job;
 
 import java.net.URI;
 

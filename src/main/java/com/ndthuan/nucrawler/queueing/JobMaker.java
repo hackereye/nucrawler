@@ -1,5 +1,7 @@
 package com.ndthuan.nucrawler.queueing;
 
+import com.ndthuan.nucrawler.api.Job;
+
 import java.net.URI;
 
 public class JobMaker {

@@ -1,7 +1,7 @@
 package com.ndthuan.nucrawler.crawler.behaviors;
 
 import com.ndthuan.nucrawler.crawler.NuCrawler;
-import com.ndthuan.nucrawler.queueing.Job;
+import com.ndthuan.nucrawler.api.Job;
 
 public class CrawlOnce implements JobBehavior {
     @Override
