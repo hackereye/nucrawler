@@ -1,4 +1,4 @@
-package com.ndthuan.nucrawler.queueing;
+package com.ndthuan.nucrawler.api;
 
 import java.net.URI;
 

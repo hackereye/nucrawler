@@ -1,5 +1,8 @@
 package com.ndthuan.nucrawler.queueing;
 
+import com.ndthuan.nucrawler.api.Job;
+import com.ndthuan.nucrawler.api.JobQueue;
+
 import java.util.concurrent.BlockingQueue;
 
 /**

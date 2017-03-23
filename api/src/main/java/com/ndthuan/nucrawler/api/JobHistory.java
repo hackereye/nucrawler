@@ -1,4 +1,4 @@
-package com.ndthuan.nucrawler.history;
+package com.ndthuan.nucrawler.api;
 
 import java.net.URI;
 
