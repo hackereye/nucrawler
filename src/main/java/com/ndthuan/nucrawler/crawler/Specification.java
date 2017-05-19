@@ -112,6 +112,11 @@ public class Specification {
             return builder;
         }
 
+        public Builder setMaxWorkers(int maxWorkers) {
+            this.maxWorkers = maxWorkers;
+            return this;
+        }
+
         public Builder setUserAgent(String userAgent) {
             this.userAgent = userAgent;
             return this;
